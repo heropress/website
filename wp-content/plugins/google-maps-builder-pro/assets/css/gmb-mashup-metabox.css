@@ -1,0 +1,106 @@
+/*!
+ * Maps Builder Mashup Metabox
+ *
+ * @description: This styles the metabox found on mashup pages
+ * @package:     GMB
+ * @subpackage:  SCSS/Admin
+ * @copyright:   Copyright (c) 2015, WordImpress
+ * @license:     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+*/
+
+.search-autocomplete {
+	width: 100%;
+}
+
+.autocomplete-wrap {
+	max-width: 710px;
+}
+
+p.autocomplete-description {
+	padding: 5px 0;
+	font-size: 13px;
+	margin: 0;
+	line-height: 18px;
+	font-style: italic;
+	color: #aaaaaa;
+}
+
+#poststuff .cmb-type-google-mashup-geocoder, #side-sortables #google_maps_mashup_metabox .cmb-type-google-mashup-geocoder {
+	border-bottom: none;
+	margin: 0;
+	padding: 10px 0 5px;
+}
+
+/*---------------------------
+Notice
+----------------------------*/
+
+.gmb-autocomplete-notice {
+	background: #fff;
+	border-left: 4px solid #7ad03a;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin: 5px 0 15px;
+	padding: 1px 12px;
+	position: relative;
+}
+
+.gmb-autocomplete-notice > p {
+	padding-right: 56px;
+	font-style: italic;
+	color: #AAA;
+	margin: 12px 0;
+}
+
+.gmb-reset-autocomplete {
+	position: absolute;
+	top: 11px;
+ 	right: 11px;
+}
+
+/*---------------------------
+Toggle Fields
+----------------------------*/
+#poststuff .gmb-toggle-fields-wrap {
+	background: url('../img/powered-by-google-on-white.png') no-repeat center right transparent;
+	margin: 5px 0 0;
+}
+
+#poststuff .gmb-toggle-fields {
+	font-size: 12px;
+	box-shadow: none;
+	outline: none;
+	margin: 6px 0 0 -5px;
+	text-decoration: none;
+}
+
+#poststuff .gmb-toggle-fields .dashicons {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+#poststuff .gmb-toggle {
+	display: none;
+	overflow: hidden;
+	margin: 10px 0 0;
+}
+
+#poststuff .gmb-toggle > .cmb-row {
+	border: none;
+	padding: 0;
+	width: 99%;
+}
+
+/* No borders */
+#cmb2-metabox-google_maps_mashup_metabox .cmb-th, #side-sortables #cmb2-metabox-google_maps_mashup_metabox .cmb-th {
+	padding-bottom: 6px;
+
+}
+
+#cmb2-metabox-google_maps_mashup_metabox label, #side-sortables #cmb2-metabox-google_maps_mashup_metabox .cmb-th label {
+	padding: 0;
+}
+
+#cmb2-metabox-google_maps_mashup_metabox label:after, #side-sortables #cmb2-metabox-google_maps_mashup_metabox .cmb-th label:after {
+	display: none;
+}

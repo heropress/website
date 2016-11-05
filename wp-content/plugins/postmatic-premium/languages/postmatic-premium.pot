@@ -1,0 +1,909 @@
+# Copyright (C) 2016 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/2.0.13-20161027-1430\n"
+"POT-Creation-Date: 2016-10-27 21:30:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/Actions/Dashboard_Widgets.php:49
+msgid "Postmatic Subscribers"
+msgstr ""
+
+#: includes/Actions/Dashboard_Widgets.php:49
+msgid "Labs Feature"
+msgstr ""
+
+#: includes/Admin/Metaboxes/Digest.php:51
+msgid "Do not include this post in digests"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Comments.php:13
+msgid "Comment digests"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Comments.php:14
+msgid "How many comments during a 14 hour period will trigger comment digests to be sent instead of individual comments? There is a minimum of 3."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Comments.php:18
+msgid "Postmatic automatically combines comment notifications on posts that go viral so your users do not get too many emails. Setting the trigger to 3 comments is good for most sites."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:49
+msgid "Basic"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:50
+msgid "Traditional"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:51
+msgid "News"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:52
+msgid "Photo"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:53
+msgid "Modern"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:69
+msgid "Configure Digests"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:137
+msgid "Digest information updated."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:142
+msgid "Digest schedule removed."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:217
+msgid "Configure Postmatic Digests"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:219
+msgid "Choose a layout, set a frequency, and add some introductory text. We'll send digests of your content automatically."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:227
+msgid "Name your digest"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:230
+msgid "This appears in optin emails and the digest subject line. Try something like <em>Acme Weekly</em> or <em>Acme Daily Roundup</em>."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:240
+msgid "Optional Introduction"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:245
+msgid "Choose a layout"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:250
+msgid "Use <em>Add to my Inbox</em>?"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:256
+msgid "Yes, let my readers request copies of my posts and conversations be delivered to their inbox. Users can click any post in the digest to receive the full contents of the post, along with the conversation to that point.  We'll wrap it up all up and send it as an email. They can then jump into the conversation right away. Highly recommended if you are pushing for engagement."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:263
+msgid "What should we use for the subject of the digest email?"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:269
+msgid "Acme Daily Digest | July 24, 2016 <small>Name and date</small>"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:270
+msgid "How to Catch a Roadrunner + 3 more posts from Acme Daily Digest <small>Smart subjects based on your latest post</small>"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:276
+msgid "Schedule Digest Delivery"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:277
+msgid "Each time a digest is sent it will include all of the posts that have been published since the last digest. If you publish multiple times per day a daily digest may be a good fit. If you publish once a day, try a weekly digest. If you only publish once a week a monthly digest would be the way to go."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:280
+msgid "How frequently should we send the digest?"
+msgstr ""
+
+#. translators: Full phrase is Send the digest every <menu> days.
+#: includes/Admin/Options_Tabs/Digest.php:286
+msgid "Send the digest every"
+msgstr ""
+
+#. translators: Full phrase is Send the digest every <menu> days.
+#: includes/Admin/Options_Tabs/Digest.php:294
+msgid "days."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:298
+msgid "When should we send your first digest?"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:304
+msgid "The digest will automatically be sent according to this date and time. We'll be using %s time."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:316
+msgid "Save changes and email me a preview"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:321
+msgid "Post Digests by Postmatic"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:322
+msgid "Your content, their schedule."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:388
+msgid "Unrecognized start time format, try 2016-01-31 6:00am PST for example."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:398
+msgid "Next digest time should be in the future."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:407
+msgid "Digest frequency must be at least one day."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:423
+msgid "Digest schedule set."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:502
+msgid "Please make sure you have a valid digest frequency and start date set."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Digest.php:516
+msgid "Preview sent."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:28
+msgid "Choose an email header image"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:103
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:108
+msgid "You can add your own CSS to the email template. We have <a href=\"%s\">an online guide</a> to selectors."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:136
+msgid "Email header type"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:142
+msgid "Image"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:143
+msgid "Text"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:162
+msgid "Email header image"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:165
+msgid "Choose a header image to be used when sending new posts, digests, letters, invitations, and subscription confirmations. Will be displayed at half the size of your uploaded image to support retina displays. The ideal width to fill the full header area is 1440px wide."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:190
+msgid "Change"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:205
+msgid "Site icon"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:208
+msgid "This is based on your site's favicon, and used in comment notifications in place of the header image."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:230
+msgid "Change in the customizer"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:243
+msgid "Enable Widgets"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:249
+msgid "Yes, use widgets in my Postmatic template"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:250
+msgid "No widgets"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:265
+msgid "Configure Widgets"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:268
+msgid "You can define widgets for your footer at "
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:272
+msgid "Appearance > Widgets"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:285
+msgid "Share the love?"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Email_Template.php:292
+msgid "Include \"Delivered by Postmatic\" in the footer area. We appreciate it!"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:20
+#: includes/Admin/Options_Tabs/Invite.php:302
+msgid "Send Invitations"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:87
+msgid "Duplicate email address"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:92
+msgid "Invalid email address"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:98
+msgid "Already subscribed"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:123
+msgid "Success. %d invite sent."
+msgid_plural "Success. %d invites sent."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/Options_Tabs/Invite.php:128
+msgid "Something went wrong and these invites were not sent: "
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:142
+msgid "Send Invitations to Subscribe to Your Site"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:143
+msgid "You already have all the email addresses you need."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:145
+msgid "When someone leaves a comment they share their email address. You may have thousands of them sitting in your database. Let's reach out and turn them into subscribers."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:153
+msgid "Who should we send this invite to?"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:160
+msgid "A list of email addresses"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:161
+msgid "People who have recently commented"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:162
+msgid "People who comment the most"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:163
+msgid "Anyone that has ever commented"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:164
+msgid "WordPress users who are not subscribed"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:165
+msgid "WordPress users subscribed to a comment thread but not new posts"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:183
+msgid "Please separate addresses with commas."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:196
+msgid "Send this invitation to people who have had an approved comment within the last"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:202
+msgid "months."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:213
+msgid "Send this invitation to people who have at least"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:220
+msgid "approved comments."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:231
+msgid "Send this invitation to "
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:238
+msgid "users who are not subscribed."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:242
+msgid "Email Subject"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:252
+msgid "Email Introduction"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:255
+msgid "This text will be placed at the top of invitation message. Make it as friendly and personalized as you can."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:270
+msgid "Recipients"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:274
+msgid "Based on the above your invite will be sent to <span class=\"recipient-count\">0</span> people."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:282
+msgid "Wow, that's a lot of invitations! This tool is currently limited to %d invites. You can contact support if you need to arrange more."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Invite.php:311
+msgid "All"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Posts.php:36
+msgid "Post Types"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Posts.php:41
+msgid "New posts of checked types will be sent to subscribers."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:14
+msgid "Configure Skimlinks"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:33
+msgid "Enter your Skimlinks publication ID:"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:37
+msgid "This can be found in your Skimlinks <a href=\"%s\" target=\"_blank\">Publisher Hub</a> in <em>account settings</em>."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:46
+msgid "<img src=\"https://s3-us-west-2.amazonaws.com/postmatic/assets/admin-ui/skimlinks.gif\">"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:51
+msgid "Make Money on Your Content Without Selling Out"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:53
+msgid "We have wandered the depths of the internet for an affiliate-marketing solution that treats everyone fairly - and are happy to recommend <a href=\"http://go.skimlinks.com/?id=84105X1536110&xs=1&url=http://skimlinks.com\">Skimlinks</a>."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:59
+msgid "What is Skimlinks?"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:65
+msgid "Skimlinks is a free service which makes it easy to generate income from your blog content. They convert links to products and services which you may be writing about into affiiliate links which you earn a commission on. It all happens automatically."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Skimlinks.php:71
+msgid "When using Skimlinks with Postmatic your affiliate links will be enabled in the emailed version of each post. If a reader clicks a link from your email and makes a purchase down the line, you'll get a part of that sale. Find out more  <a href=\"http://go.skimlinks.com/?id=84105X1536110&xs=1&url=http://skimlinks.com\">by visiting Skimlinks</a>."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:19
+#: includes/Admin/Options_Tabs/Webhooks.php:66
+msgid "Webhooks"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:40
+msgid "Subscribe Webhook URL:"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:43
+msgid "Enter the Webhook URL to inform on subscriptions"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:48
+msgid "Unsubscribe Webhook URL:"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:51
+msgid "Enter the Webhook URL to inform when someone unsubscribes"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:55
+msgid "Test URLs"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:59
+msgid "Press the button to send a test Webhook"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:60
+msgid "Send Test Webhook"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:68
+msgid "Use Webhooks to send notifications of subscribes and unsubscribes to other platforms and services. The quickest way to get started is using a <strong>Catch Hook</strong> webhook via <a href=\"https://zapier.com/zapbook/webhook/\" target=\"_blank\">Zapier</a>. Need some ideas? <a href=\"https://gopostmatic.com/2016/03/sneak-peek-at-postmatic-2-0-support-for-optinmonster-and-500-other-apps/\" target=\"_blank\">Check out this blog post</a>."
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:114
+msgid "Subscribe hook"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:115
+msgid "Unsubscribe hook"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:116
+msgid "test sent"
+msgstr ""
+
+#: includes/Admin/Options_Tabs/Webhooks.php:117
+msgid "Test failed"
+msgstr ""
+
+#: includes/Commands/Comment_Moderation.php:124
+msgid "Received a comment moderation command with invalid keys."
+msgstr ""
+
+#: includes/Commands/Comment_Moderation.php:136
+msgid "Received a comment moderation command from a user with insufficient capabilities."
+msgstr ""
+
+#. translators: this is the response used to approve a moderated comment
+#: includes/Commands/Comment_Moderation.php:175
+#: templates/comment-moderation-email.php:55
+msgid "approve"
+msgstr ""
+
+#. translators: this is the response used to flag a moderated comment as spam
+#: includes/Commands/Comment_Moderation.php:181
+#: templates/comment-moderation-email.php:67
+msgid "spam"
+msgstr ""
+
+#. translators: this is the response used to put a moderated comment in the
+#. trash
+#: includes/Commands/Comment_Moderation.php:187
+#: templates/comment-moderation-email.php:61
+msgid "trash"
+msgstr ""
+
+#: includes/Commands/Comment_Moderation.php:250
+msgid "rejected comment on unqualified post %s"
+msgstr ""
+
+#: includes/Core.php:97
+msgid "Postmatic Digest Delivery"
+msgstr ""
+
+#: includes/Core.php:141
+msgid "Delete"
+msgstr ""
+
+#: includes/Core.php:146
+msgid "Postmatic Basic is no longer necessary. It has been deactivated and is safe to delete."
+msgstr ""
+
+#: includes/Core.php:381
+msgid "Sure, deactivate it now"
+msgstr ""
+
+#: includes/Core.php:385
+msgid "You have an older version of Postmatic installed. We recommend deactivating it to use the more current version bundled with Postmatic Premium."
+msgstr ""
+
+#: includes/Email_Batches/Comment_Digest.php:52
+#: includes/Email_Batches/Comment_Moderation.php:30
+msgid "Anonymous"
+msgstr ""
+
+#. translators: first %s is post title, second is blog name
+#: includes/Email_Batches/Comment_Digest.php:84
+msgid "Daily comment digest for %s from %s"
+msgstr ""
+
+#. translators: %1$s is a subscription list title, %2$s the unsubscribe command
+#: includes/Email_Batches/Comment_Digest.php:91
+msgid "You received this email because you're subscribed to %1$s. To no longer receive other comments or replies in this discussion reply with the word '%2$s'."
+msgstr ""
+
+#: includes/Email_Batches/Comment_Moderation.php:34
+msgid "Please moderate \"%s\""
+msgstr ""
+
+#: includes/Email_Batches/Comment_Moderation.php:67
+msgid "You received this email because you are the author of %1$s. To turn off Postmatic comment moderation please <a href=\"%2$s\">visit your discussion settings in WordPress</a>."
+msgstr ""
+
+#: includes/Email_Batches/Digest.php:134
+msgid "Did not add an invalid digest recipient"
+msgstr ""
+
+#. translators: %s is a subscription list title
+#: includes/Email_Batches/Digest.php:205
+msgid "You received this email because you're subscribed to %s."
+msgstr ""
+
+#: includes/Email_Batches/Digest.php:215
+msgid "Switch to posts as they are published"
+msgstr ""
+
+#. translators: %s is the instant command word
+#: includes/Email_Batches/Digest.php:219
+msgid "To receive posts as they are published, reply with word '%s'."
+msgstr ""
+
+#. translators: %s is the unsubscribe command word
+#: includes/Email_Batches/Digest.php:228
+msgid "To unsubscribe reply with the word '%s'."
+msgstr ""
+
+#: includes/Filters/Footnote_Content.php:62
+msgid "Switch to instant post delivery"
+msgstr ""
+
+#: includes/Filters/Footnote_Content.php:66
+msgid "To receive new posts as soon as they are published, reply with the word '%s'."
+msgstr ""
+
+#: includes/Filters/Footnote_Content.php:88
+msgid "Switch to digests"
+msgstr ""
+
+#: includes/Filters/Footnote_Content.php:92
+msgid "To receive fewer emails, reply with the word '%s'."
+msgstr ""
+
+#. translators: %s is site name
+#: includes/Lists/Digest.php:51
+msgid "%s Digest"
+msgstr ""
+
+#: includes/Lists/Digest.php:110
+msgid "You have successfully subscribed to %s. You'll receive your first copy as soon as it is published."
+msgstr ""
+
+#: includes/Lists/Digest.php:126 templates/comment-moderation-email.php:55
+#: templates/comment-moderation-email.php:61
+#: templates/comment-moderation-email.php:67
+msgid "Just hit send"
+msgstr ""
+
+#: includes/Lists/Digest.php:132
+msgid "To receive less mail you can subscribe to %s. In order to receive digests of posts reply to this email with the word '%s'."
+msgstr ""
+
+#: includes/Lists/Digest.php:283
+msgid "Invalid subject style %d"
+msgstr ""
+
+#: includes/Mailers/Comment_Digest.php:65
+msgid "Encountered an error while mailing a comment digest."
+msgstr ""
+
+#: includes/Mailers/Digest.php:34
+msgid "Digest plan not found."
+msgstr ""
+
+#: includes/Mailers/Digest.php:49
+msgid "Got digest callback with no digest due."
+msgstr ""
+
+#: includes/Mailers/Digest.php:77
+msgid "Encountered and error while mailing a digest."
+msgstr ""
+
+#: includes/Mailers/Digest.php:148
+msgid "Got an unrecognized outbound message batch response."
+msgstr ""
+
+#. translators: this is the word used to switch to or select a digest
+#. subscription via email reply
+#: includes/Matchers/Digest.php:15
+msgid "digest"
+msgstr ""
+
+#: includes/Models/Webhook.php:67
+msgid "A web hook failed."
+msgstr ""
+
+#: includes/Post_Types/Digest.php:32 includes/Post_Types/Digest.php:34
+#: includes/Post_Types/Digest.php:44
+msgid "Digests"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:33
+msgid "Digest"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:35
+msgid "New digest"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:36
+msgid "Add New"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:37
+msgid "Add New digest"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:38
+msgid "Edit digest"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:39
+msgid "View digest"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:40
+msgid "Search digests"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:41
+msgid "No digests found"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:42
+msgid "No digests found in trash"
+msgstr ""
+
+#: includes/Post_Types/Digest.php:43
+msgid "Parent digest"
+msgstr ""
+
+#. translators: part of the phrase "3 comments by A & B"
+#: includes/Rendering_Contexts/Digest.php:167
+msgid "by"
+msgstr ""
+
+#. translators: example phrase "8 comments by A, B, & 23 others"
+#: includes/Rendering_Contexts/Digest.php:191
+msgid "by %1$s, &amp; %2$d others"
+msgstr ""
+
+#: includes/Rendering_Contexts/Digest.php:226
+msgid "PREVIEW of %s"
+msgstr ""
+
+#: includes/Rendering_Contexts/Digest.php:251
+msgid "More content coming soon"
+msgstr ""
+
+#. translators: %1$s is the most recent post name, %2$d a count, and %3$d the
+#. digest name
+#: includes/Rendering_Contexts/Digest.php:262
+msgid "%1$s + %2$d more new posts from %3$s"
+msgstr ""
+
+#: includes/Repositories/Scheduled_Callback_HTTP.php:42
+msgid "Failed to get digest callback information."
+msgstr ""
+
+#: includes/Repositories/Scheduled_Callback_HTTP.php:64
+msgid "Failed to delete a digest schedule."
+msgstr ""
+
+#: includes/Repositories/Scheduled_Callback_HTTP.php:86
+msgid "Couldn't set the digest schedule - could be temporary"
+msgstr ""
+
+#: includes/Sidebars/Comment_Footer.php:21
+msgid "These widgets will be included below the comments in Postmatic comment notifications. Need inspiration? Try our widgets directory at http://gopostmatic.com/widgets."
+msgstr ""
+
+#: includes/Sidebars/Digest_Footer.php:19
+msgid "Postmatic Digest Footer"
+msgstr ""
+
+#: includes/Sidebars/Digest_Footer.php:21
+msgid "These widgets will be included below the content of post digests that are sent via Postmatic."
+msgstr ""
+
+#: includes/Sidebars/Footer.php:21
+msgid "These widgets will be included below the content of new posts that are sent via Postmatic. Need inspiration? Try our widgets directory at http://gopostmatic.com/widgets."
+msgstr ""
+
+#: includes/Sidebars/Header.php:21
+msgid "These widgets will be included above new posts and digests which are sent via Postmatic. Need inspiration? Try our widgets directory at http://gopostmatic.com/widgets."
+msgstr ""
+
+#: includes/Sidebars/Sidebar.php:21
+msgid "These widgets will be included alongside new posts which are sent via Postmatic. Need inspiration? Try our widgets directory at http://gopostmatic.com/widgets."
+msgstr ""
+
+#: postmatic-premium.php:78
+msgid "Postmatic Premium requires PHP version %1s or later. Current version is %2s. Your web host should be able to help you fix this."
+msgstr ""
+
+#: templates/comment-digest-email-text.php:12
+msgid "There were <a href=\"%1$s\">%2$d comments</a> previous to these. Here's the latest discussion:"
+msgstr ""
+
+#: templates/comment-digest-email-text.php:30
+msgid "* Reply to this email to add a new comment. *"
+msgstr ""
+
+#: templates/comment-digest-email.php:19
+msgid "There is %d new comment on <em>%s</em>."
+msgid_plural "There are %d new comments on <em>%s</em>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comment-digest-email.php:46
+msgid "Reply to this email to add a comment. Your email address will not be shown."
+msgstr ""
+
+#: templates/comment-digest-email.php:51
+msgid "<strong>Please note</strong>: Your reply will be published publicly and immediately on %s."
+msgstr ""
+
+#: templates/comment-digest-email.php:63
+msgid "Here's a recap of this post and conversation:"
+msgstr ""
+
+#. translators: %1$s is post title, %2$s date, %3$s time, %4$s author
+#: templates/comment-digest-email.php:69
+msgid "%1$s was published on %2$s by %4$s."
+msgstr ""
+
+#. translators: %s is post modified date
+#: templates/comment-digest-email.php:80
+msgid "(Last updated %s)"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:16
+msgid "There is a new comment to moderate from %s on %s."
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:27
+msgid "Details about the comment"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:29
+msgid "Author"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:31
+msgid "Email"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:33
+msgid "IP Address"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:35
+msgid "Domain"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:38
+msgid "Approve?"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:41
+msgid "Reply to this email with a blank message or the word 'approve.'. You can also approve and reply at the same time by just writing your reply."
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:48
+msgid "Trash?"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:51
+msgid "Reply to this email with the word 'trash.'"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:58
+msgid "Spam?"
+msgstr ""
+
+#: templates/comment-moderation-email-text.php:61
+msgid "Reply to this email with a the word 'spam.'"
+msgstr ""
+
+#: templates/comment-moderation-email.php:15
+msgid "There is a new comment to moderate from <span class=\"capitalize\">%s</span>."
+msgstr ""
+
+#: templates/comment-moderation-email.php:21
+msgid "In reply to: %s."
+msgstr ""
+
+#: templates/comment-moderation-email.php:48
+msgid "Reply, Approve, Trash, or Spam?"
+msgstr ""
+
+#: templates/comment-moderation-email.php:52
+msgid "<strong>Approve and Reply</strong>: Reply to this email with your response to both approve this comment and reply to it."
+msgstr ""
+
+#: templates/comment-moderation-email.php:57
+msgid "Approve"
+msgstr ""
+
+#: templates/comment-moderation-email.php:63
+msgid "Trash"
+msgstr ""
+
+#: templates/comment-moderation-email.php:69
+msgid "Spam"
+msgstr ""
+
+#: templates/comment-moderation-email.php:73
+msgid "Moderate this comment in your web browser"
+msgstr ""
+
+#: templates/digest-email-text.php:25
+msgid "Send to me"
+msgstr ""
+
+#: templates/digest-email-text.php:27
+msgid "Send me the full post"
+msgstr ""
+
+#: templates/digest-email-text.php:30
+msgid "Press send to confirm."
+msgstr ""
+
+#: templates/digest-email-text.php:36
+msgid "Read online"
+msgstr ""
+
+#. translators: <post title> by <post author>
+#: templates/digest-email.php:34
+msgid " by "
+msgstr ""
+
+#. translators: %s is the post title
+#: templates/digest-email.php:54
+msgid "I would like a copy of %s"
+msgstr ""
+
+#. translators: %s is the post title
+#: templates/digest-email.php:62
+msgid "Ready to go. To receive a copy of %s just press send. We will send you a copy along with the full conversation. You should receive it in about half a minute."
+msgstr ""
+
+#: templates/digest-email.php:73
+msgid "Add to my inbox"
+msgstr ""
+
+#: templates/digest-email.php:79
+msgid "Read it online"
+msgstr ""

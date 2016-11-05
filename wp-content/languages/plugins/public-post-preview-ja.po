@@ -1,0 +1,59 @@
+# Translation of Stable (latest release) in Japanese
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-23 18:32:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. Plugin URI of the plugin/theme
+msgid "https://dominikschilling.de/wp-plugins/public-post-preview/en/"
+msgstr "https://dominikschilling.de/wp-plugins/public-post-preview/en/"
+
+#: public-post-preview.php:106
+msgid "Enabled!"
+msgstr "許可!"
+
+#: public-post-preview.php:107
+msgid "Disabled!"
+msgstr "不可!"
+
+#: public-post-preview.php:123
+msgid "Public Preview"
+msgstr "外部確認"
+
+#: public-post-preview.php:196
+msgid "Enable public preview"
+msgstr "外部確認を許可する"
+
+#: public-post-preview.php:201
+msgid "(Copy and share this link.)"
+msgstr "(このURLをコピーして、使用できます)"
+
+#: public-post-preview.php:444
+msgid "The link has been expired!"
+msgstr "残念ながら、もう無効です。担当者へご連絡下さい。"
+
+#: public-post-preview.php:448
+msgid "No Public Preview available!"
+msgstr "残念ながら、無効です。"
+
+#. Plugin Name of the plugin/theme
+msgid "Public Post Preview"
+msgstr "外部確認"
+
+#. Description of the plugin/theme
+msgid "Enables you to give a link to anonymous users for public preview of any post type before it is published."
+msgstr "外部確認を許可するプラグインです。"
+
+#. Author of the plugin/theme
+msgid "Dominik Schilling"
+msgstr "Dominik Schilling"
+
+#. Author URI of the plugin/theme
+msgid "http://wphelper.de/"
+msgstr "http://wphelper.de/"

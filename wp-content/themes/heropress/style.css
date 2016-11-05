@@ -1,0 +1,191 @@
+/**
+ * Theme Name:  HeroPress
+ * Theme URI:   https://heropress.com
+ * Author:      Topher
+ * Author URI:  https://topher1kenobe.com
+ * Description: Child of Make
+ * Version:     1.0
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: make
+ * Template:	make
+ * Domain Path: /languages/
+ * Tags:        black, blue, green, gray, orange, red, white, yellow, dark, light, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, buddypress, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
+ *
+ * Make WordPress Theme, Copyright 2014 The Theme Foundry
+ * Make is distributed under the terms of the GNU GPL
+ */
+
+.site-title {
+  height: 0;
+  text-indent: -10000px;
+}
+
+.kickstarter-num {
+  font-size: 26px;
+  line-height: 33px;
+}
+.widget-title {
+  font-size: 26px;
+}
+.widget_heropress_recent_essays_widget {
+  margin-bottom: 20px;
+}
+.contributor_list img {
+  float: left;
+  margin: 6px 4px 10px 0;
+}
+.contributor_list h4 {
+  clear: none;
+  font-size: 14px;
+  margin: 0;
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 8px 16px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 38px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+.post-type-archive-heropress-essays .type-heropress-essays img,
+.home .type-heropress-essays img {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+.post-type-archive-heropress-essays .type-heropress-essays .entry-header p,
+.home .type-heropress-essays .entry-header p {
+  margin-bottom: 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.post-type-archive-heropress-essays h1.entry-title,
+.home h1.entry-title {
+  clear: none;
+  font-size: 3rem;
+}
+
+blockquote {
+    border-left: 0.5rem solid rgba(50, 135, 199, 1);
+    padding: 0 0 0 2rem;
+    margin: 5rem 0;
+}
+
+.contributor_data {
+  display: none;
+  clear: left;
+}
+.contributor_data img {
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+.contributor_data h4 {
+  font-size: 22px;
+}
+.contributor_data ul {
+  list-style-type: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+textarea,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+    border: 1px solid #ccc;
+}
+
+.placeholder {
+  height: auto;
+  text-align: left;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors {
+  float: left;
+  width: 44%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors:nth-child(even) {
+  margin-right: 68px;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors img {
+  width: 100%;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors h4,
+.post-type-archive-hp-contributors article.type-hp-contributors header,
+.post-type-archive-hp-contributors article.type-hp-contributors h3 {
+  margin: 0;
+  padding: 0;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors h3 {
+  font-size: 22px;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors h4 {
+  font-size: 16px;
+}
+.post-type-archive-hp-contributors article.type-hp-contributors h4 a {
+  color: #3287c7;
+}
+
+.post-type-archive-hp-contributors #site-main .navigation {
+  clear: both;
+}
+/* Postmatic widget styles */
+.prompt-subscribe .placeholder {
+  text-align: left;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .contributor_data {
+    display: block;
+  }
+  .widget_heropress_contributor_widget {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .post-type-archive-hp-contributors article.type-hp-contributors {
+    float: none;
+    width: 100%;
+    padding: 0px;
+  }
+}
