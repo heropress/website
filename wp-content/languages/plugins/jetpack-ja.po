@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack by WordPress.com - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-13 20:27:19+0000\n"
+"PO-Revision-Date: 2016-11-12 23:05:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,57 @@ msgstr ""
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Jetpack by WordPress.com - Stable (latest release)\n"
 
+#: modules/sso.php:1060
+msgid "There was an error creating a user for you. Please contact the administrator of your site."
+msgstr "ユーザー作成エラーが発生しました。サイトの管理者にお問い合わせください。"
+
+#: modules/sso.php:1041
+msgid "There was an error logging you in via WordPress.com, please try again or try logging in with your username and password."
+msgstr "WordPress.com を使ってログインする際にエラーが発生しました。ユーザー名とパスワードでログインしてみてください。"
+
+#: modules/sso.php:1025
+msgid "Logging in with WordPress.com is not currently available because this site is experiencing connection problems."
+msgstr "サイトで接続上の問題が発生しているため、現在 WordPress.com を使ったログインは利用できません。"
+
 #: _inc/jetpack-strings.php:403
 msgid "Search your content."
 msgstr "コンテンツを検索。"
 
+#: _inc/jetpack-strings.php:385
+msgid "{{a}}Manage Likes visibility from the Sharing Module Settings{{/a}}"
+msgstr "{{a}}「共有」モジュール設定で「いいね」の表示状態を管理{{/a}}"
+
+#: _inc/jetpack-strings.php:375
+msgid "Hide the stats smiley face image. The image helps collect stats but should still work when hidden."
+msgstr "統計情報用のスマイリーフェイス画像を非表示にします。この画像は統計情報の収集に使われますが、非表示にしても引き続き動作します。"
+
+#: _inc/jetpack-strings.php:372
+msgid "Your Current IP: %(ip)s"
+msgstr "現在の IP: %(ip)s"
+
+#: _inc/jetpack-strings.php:370
+msgid "Whitelisting an IP address prevents it from ever being blocked by Jetpack."
+msgstr "IP アドレスをホワイトリストに追加すれば、Jetpack からブロックされることがなくなります。"
+
+#: _inc/jetpack-strings.php:368
+msgid "IPv4 and IPv6 are acceptable. {{br/}} To specify a range, enter the low value and high value separated by a dash. Example: 12.12.12.1-12.12.12.100"
+msgstr "IPv4 と IPv6 が使用可能です。{{br/}} レンジを指定するには、低い値と高い値を半角ダッシュでつないで記入してください。例: 12.12.12.1-12.12.12.100"
+
+#: _inc/jetpack-strings.php:341
+msgid "Link your account to WordPress.com to start using this feature."
+msgstr "この機能を使い始めるにはアカウントを WordPress.com に連携してください。"
+
+#: _inc/jetpack-strings.php:238
+msgid "This will reset all Jetpack options, are you sure?"
+msgstr "Jetpack のすべての設定がリセットされます。本当に実行しますか ?"
+
 #: _inc/jetpack-strings.php:197
 msgid "{{button}}View More Stats on WordPress.com {{/button}}"
 msgstr "{{button}}WordPress.com で統計情報の詳細を表示{{/button}}"
+
+#: _inc/jetpack-strings.php:37
+msgid "There are unsaved settings in this tab that will be lost if you leave it. Proceed?"
+msgstr "タブを離れると失われてしまう未保存の変更があります。続行しますか ?"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:279
 msgid "Invalid parameter \"dismissed\"."
@@ -990,6 +1034,10 @@ msgstr "モバイル広告"
 msgid "Show a promo for the WordPress mobile apps in the footer of the mobile theme"
 msgstr "WordPress モバイルアプリの広告をモバイルテーマのフッターに表示します"
 
+#: _inc/jetpack-strings.php:352
+msgid "Enter your meta key \"content\" value to verify your blog with {{a}}Google Search Console{{/a}}, {{a1}}Bing Webmaster Center{{/a1}} and {{a2}}Pinterest Site Verification{{/a2}}."
+msgstr "{{a}}Google Search Console{{/a}}、{{a1}}Bing ウェブマスターセンター{{/a1}}、{{a2}}Pinterest サイト認証{{/a2}}でブログを認証するにはメタキー \"content\" の値を入力してください。"
+
 #: _inc/jetpack-strings.php:349 _inc/jetpack-strings.php:350
 #: _inc/jetpack-strings.php:351
 msgid "Meta key example: "
@@ -1367,6 +1415,10 @@ msgstr "全期間中の閲覧数"
 msgid "All-time comments"
 msgstr "全期間中のコメント数"
 
+#: _inc/jetpack-strings.php:198
+msgid "{{button}}View Old Stats{{/button}}"
+msgstr "{{button}}旧版の統計情報を表示{{/button}}"
+
 #: _inc/jetpack-strings.php:193
 msgid "Automated, comprehensive protection from threats and attacks."
 msgstr "脅威や攻撃に対する自動的かつ包括的な保護。"
@@ -1668,6 +1720,10 @@ msgstr "インスピレーションはいつ、どこで湧くか分かりませ
 msgid "Get WordPress apps for any screen."
 msgstr "さまざまな画面で利用可能な WordPress アプリを入手しましょう。"
 
+#: _inc/jetpack-strings.php:51
+msgid "In Your Pocket"
+msgstr "ポケットに持ち歩く"
+
 #: _inc/jetpack-strings.php:50
 msgid "Publish content, track stats, moderate comments and so much more from anywhere in the world. Our mobile apps are open source, free and available to you on Apple or Android devices."
 msgstr "コンテンツの公開、統計情報の追跡、コメントの管理など、さまざまな操作を世界中のどこにいても実行できます。WordPress.com のモバイルアプリはオープンソースであり、Apple デバイスや Android デバイスで無料で入手できます。"
@@ -1790,6 +1846,10 @@ msgstr "{{a}}管理を有効化{{/a}}して自動更新をオンにし、WordPre
 #: _inc/jetpack-strings.php:106
 msgid "Image Performance %(photon)s"
 msgstr "画像のパフォーマンス %(photon)s"
+
+#: _inc/jetpack-strings.php:105
+msgid "Jetpack is improving and optimizing your image speed."
+msgstr "Jetpack は画像の表示速度を向上・最適化しています。"
 
 #: _inc/jetpack-strings.php:103
 msgid "{{a}}Activate Photon{{/a}} to enhance the performance and speed of your images."
@@ -1946,6 +2006,10 @@ msgstr "%(slug)s のアドレスを更新中…"
 #: _inc/jetpack-strings.php:26
 msgid "Regenerated %(slug)s address ."
 msgstr "%(slug)s のアドレスが再生成されました。"
+
+#: _inc/jetpack-strings.php:25
+msgid "Error regenerating %(slug)s address. %(error)s"
+msgstr "%(slug)s のアドレスの再生成中にエラーが発生しました。%(error)s"
 
 #: _inc/jetpack-strings.php:21
 msgid "Resetting Jetpack options…"
@@ -4183,7 +4247,7 @@ msgstr "ヘッダーテキストを表示する"
 
 #: modules/theme-tools/site-logo/inc/class-site-logo.php:83
 msgid "Site Title, Tagline, and Logo"
-msgstr "サイトタイトル、タグライン、およびロゴ"
+msgstr "サイトのタイトル、キャッチフレーズ、ロゴ"
 
 #: modules/theme-tools/site-logo/inc/class-site-logo-control.php:24
 msgid "No logo set"
@@ -5746,6 +5810,11 @@ msgstr "動画をサイトから直接アップロード・埋め込みできま
 msgctxt "Module Name"
 msgid "VideoPress"
 msgstr "VideoPress"
+
+#: modules/module-headings.php:191
+msgctxt "Module Description"
+msgid "Verify your site or domain with Google Search Console, Pinterest, and Bing."
+msgstr "サイトまたはドメインを Google Search Console、Pinterest、Bing で認証できます。"
 
 #: modules/module-headings.php:190
 msgctxt "Module Name"
@@ -8629,7 +8698,7 @@ msgstr "(タイトルなし)"
 
 #: functions.gallery.php:65
 msgid "Type"
-msgstr "種類"
+msgstr "タイプ"
 
 #: functions.gallery.php:22
 msgid "Thumbnail Grid"

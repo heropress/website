@@ -89,7 +89,7 @@ class NF_AJAX_Controllers_Submission extends NF_Abstracts_Controller
             $form_settings = $form->get_settings();
         }
 
-        $this->_data[ 'form_id' ] = $this->_form_id;
+        $this->_data[ 'form_id' ] = $this->_form_data[ 'form_id' ] = $this->_form_id;
         $this->_data[ 'settings' ] = $form_settings;
         $this->_data[ 'settings' ][ 'is_preview' ];
         $this->_data[ 'extra' ] = $this->_form_data[ 'extra' ];
@@ -133,11 +133,14 @@ class NF_AJAX_Controllers_Submission extends NF_Abstracts_Controller
             $field_id = $field[ 'id' ];
 
             // Check that the field ID exists in the submitted for data and has a submitted value.
-            if( ! isset( $this->_form_data[ 'fields' ][ $field_id ] ) ) continue;
-            if( ! isset( $this->_form_data[ 'fields' ][ $field_id ][ 'value' ] ) ) continue;
+            if( isset( $this->_form_data[ 'fields' ][ $field_id ] ) && isset( $this->_form_data[ 'fields' ][ $field_id ][ 'value' ] ) ){
+                $field[ 'value' ] = $this->_form_data[ 'fields' ][ $field_id ][ 'value' ];
+            } else {
+                $field[ 'value' ] = '';
+            }
 
             // Duplicate field value to settings and top level array item for backwards compatible access (ie Save Action).
-            $field[ 'settings' ][ 'value' ] = $field[ 'value' ] = $this->_form_data[ 'fields' ][ $field_id ][ 'value' ];
+            $field[ 'settings' ][ 'value' ] = $field[ 'value' ];
 
             // Duplicate field value to form cache for passing to the action filter.
             $this->_form_cache[ 'fields' ][ $key ][ 'settings' ][ 'value' ] = $this->_form_data[ 'fields' ][ $field_id ][ 'value' ];
@@ -145,14 +148,21 @@ class NF_AJAX_Controllers_Submission extends NF_Abstracts_Controller
             // Duplicate the Field ID for access as a setting.
             $field[ 'settings' ][ 'id' ] = $field[ 'id' ];
 
+            // Combine with submitted data.
+            $field = array_merge( $field, $this->_form_data[ 'fields' ][ $field_id ] );
+
+            // Flatten the field array.
+            $field = array_merge( $field, $field[ 'settings' ] );
+
             /** Validate the Field */
-            $this->validate_field( $field[ 'settings' ] );
+            $this->validate_field( $field );
 
             /** Process the Field */
-            $this->process_field( $field[ 'settings' ] );
+            $this->process_field( $field );
+            $field = array_merge( $field, $this->_form_data[ 'fields' ][ $field_id ] );
 
             /** Populate Field Merge Tag */
-            $field_merge_tags->add_field( $field[ 'settings' ] );
+            $field_merge_tags->add_field( $field );
 
             $this->_data[ 'fields' ][ $field_id ] = $field;
         }
@@ -286,6 +296,7 @@ class NF_AJAX_Controllers_Submission extends NF_Abstracts_Controller
         if( $errors = $field_class->validate( $field_settings, $this->_form_data ) ){
             $field_id = $field_settings[ 'id' ];
             $this->_errors[ 'fields' ][ $field_id ] = $errors;
+            $this->_respond();
         }
     }
 

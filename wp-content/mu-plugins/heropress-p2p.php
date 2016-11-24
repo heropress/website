@@ -19,5 +19,15 @@ function heropress_connection_types() {
 		)
 	);
 
+	p2p_register_connection_type(
+		array(
+			'name'		 => 'podcast_to_contributors',
+			'from'		 => 'podcast',
+			'to'		 => 'hp-contributors',
+			'reciprocal' => false,
+			'sortable'	 => 'any',
+		)
+	);
+
 }
 add_action( 'p2p_init', 'heropress_connection_types' );
