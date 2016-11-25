@@ -41,69 +41,54 @@ class Heropress_Sponsor_Widget extends WP_Widget {
 	 */
 	public function widget( $args, $instance ) {
 
-		// add "subscription" to class list
-		$args['before_widget'] = str_replace( 'widget_heropress_sponsor_widget', 'widget_heropress_sponsor_widget subscription', $args['before_widget'] );
-
-		echo wp_kses_post( $args['before_widget'] );
-
-
-		if ( ! empty( $instance['title'] ) ) {
-			echo '<h3 class="widget-title">' . esc_attr( $instance['title'] ) . ' </h3>' . "\n";
-		}
-
+		$current_object = get_queried_object();
 
 		// Find connected pages
 		$connected = new WP_Query( array(
 			'connected_type'  => 'essays_to_sponsors',
-			'connected_items' => get_queried_object(),
+			'connected_items' => $current_object,
 			'connected_query' => array( 'post_status' => 'any' ),
 			'nopaging'        => true,
 		) );
 
 		// Display connected pages
 		if ( $connected->have_posts() ) :
+
+		echo wp_kses_post( $args['before_widget'] );
+
+		if ( ! empty( $instance['title'] ) ) {
+			echo '<h3 class="widget-title">' . esc_attr( $instance['title'] ) . ' </h3>' . "\n";
+		}
+
+
 		?>
 		<?php while ( $connected->have_posts() ) : $connected->the_post(); ?>
 
 			<?php $meta = get_post_custom(); ?>
+            <?php
 
-			<?php the_post_thumbnail(); ?>
+                if ( ! empty( $meta['_heropress_sponsor_url'][0] ) ) {
+					$url_start = '<a href="' . esc_url( $meta['_heropress_sponsor_url'][0] ) . '?utm_source=heropress&utm_medium=heropress-sponsorship&utm_content=' . $current_object->post_name . '">';
+					$url_end = '</a>';
+                } else {
+					$url_start = '';
+					$url_end = '';
+				}
+			?>
 
-			<h4><?php the_title(); ?></h5>
-			<ul>
+
+			<?php echo $url_start; ?><?php the_post_thumbnail( 'heropress-sponsor-logo' ); ?><?php echo $url_end; ?>
+
+			<?php echo wpautop( get_the_content() ); ?>
+
 			<?php
-				if ( isset( $meta['_heropress_sponsor_url'][0] ) && '' != $meta['_heropress_sponsor_url'][0] ) {
+				if ( ! empty( $meta['_heropress_sponsor_url'][0] ) ) {
 			?>
-			<li><a href="<?php echo esc_url( $meta['_heropress_sponsor_url'][0] ); ?>"><?php echo esc_url( $meta['_heropress_sponsor_url'][0] ); ?></a></li>
-			<?php
-				}
-				if ( isset( $meta['_heropress_sponsor_twitter'][0] ) && '' != $meta['_heropress_sponsor_twitter'][0] ) {
-			?>
-			<li><a href="<?php echo esc_url( 'http://twitter.com/' . $meta['_heropress_sponsor_twitter'][0] ); ?>">@<?php echo esc_html( $meta['_heropress_sponsor_twitter'][0] ); ?></a></li>
-			<?php
-				}
-				if ( isset( $meta['_heropress_sponsor_facebook'][0] ) && '' != $meta['_heropress_sponsor_facebook'][0] ) {
-			?>
-			<li><a href="<?php echo esc_url( $meta['_heropress_sponsor_facebook'][0] ); ?>">Facebook</a></li>
-			<?php
-				}
-				if ( isset( $meta['_heropress_sponsor_github'][0] ) && '' != $meta['_heropress_sponsor_github'][0] ) {
-			?>
-			<li><span><a href="<?php echo esc_url( $meta['_heropress_sponsor_github'][0] ); ?>">GitHub</a></span></li>
-			<?php
-				}
-				if ( isset( $meta['_heropress_sponsor_wptv'][0] ) && '' != $meta['_heropress_sponsor_wptv'][0] ) {
-			?>
-			<li><span><a href="<?php echo esc_url( $meta['_heropress_sponsor_wptv'][0] ); ?>">WordPress.tv</a></span></li>
-			<?php
-				}
-				if ( isset( $meta['_heropress_sponsor_dot_org'][0] ) && '' != $meta['_heropress_sponsor_dot_org'][0] ) {
-			?>
-			<li><span><a href="<?php echo esc_url( $meta['_heropress_sponsor_dot_org'][0] ); ?>">WordPress.org Profile</a></span></li>
+			<h6><?php echo $url_start; ?><?php _e( 'Visit', 'heropress' ); ?> <?php echo get_the_title(); ?><?php echo $url_end; ?></h6>
 			<?php
 				}
 			?>
-			</ul>
+
 		<?php endwhile; ?>
 
 		<?php 

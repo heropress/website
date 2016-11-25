@@ -31,6 +31,15 @@
 .widget_heropress_recent_essays_widget {
   margin-bottom: 20px;
 }
+.widget_heropress_sponsor_widget img {
+  margin-bottom: 10px;
+}
+.widget_heropress_sponsor_widget p {
+  margin-bottom: 6px;
+}
+.widget_heropress_sponsor_widget h6 {
+  margin: 0;
+}
 .contributor_list img {
   float: left;
   margin: 6px 4px 10px 0;

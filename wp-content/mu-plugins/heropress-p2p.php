@@ -31,7 +31,7 @@ function heropress_connection_types() {
 
 	p2p_register_connection_type(
 		array(
-			'name'		 => 'sponsors_to_contributors',
+			'name'		 => 'essays_to_sponsors',
 			'from'		 => 'heropress-essays',
 			'to'		 => 'hp-sponsors',
 			'reciprocal' => false,
