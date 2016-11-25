@@ -8,5 +8,6 @@ Version: 1.0.0
 
 function heropress_add_image_sizes() {
 	add_image_size( 'heropress-thumb', 300, 9999 );
+	add_image_size( 'heropress-sponsor-logo', 250, 9999 );
 }
 add_action( 'init', 'heropress_add_image_sizes' );
