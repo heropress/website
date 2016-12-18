@@ -290,12 +290,14 @@ final class MAKE_Setup_Scripts extends MAKE_Util_Modules implements MAKE_Setup_S
 			}
 		}
 
+		$ver = filemtime( get_template_directory() . '/style.css');
+
 		// Main stylesheet
 		wp_enqueue_style(
 			'make-main',
 			get_stylesheet_uri(),
 			array(),
-			TTFMAKE_VERSION
+			$ver
 		);
 
 		// Add stylesheet dependencies

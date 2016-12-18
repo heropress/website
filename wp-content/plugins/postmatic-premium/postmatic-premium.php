@@ -10,7 +10,7 @@
  * @wordpress-plugin
  *
  * Plugin Name: Postmatic & Postmatic Labs
- * Version: 2.0.13
+ * Version: 2.0.14
  * Plugin URI:  http://gopostmatic.com/
  * Description:
  * Author:      Postmatic
